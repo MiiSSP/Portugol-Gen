@@ -23,7 +23,7 @@ programa
 	faca 
 		{
 		escreva ("\n", C)
-		C = (C + 3)
+		C = (C + 5)
 		}
 		enquanto (C >= 400 e C <= 456)
 	}
@@ -35,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 77; 
+ * @POSICAO-CURSOR = 338; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

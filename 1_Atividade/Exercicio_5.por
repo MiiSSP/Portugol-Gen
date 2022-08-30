@@ -10,17 +10,17 @@ programa
 	leia (P)
 	
 	//Linhas de programação
-	se (P >= 0.05 e P <= 0.25)
+	se (P >= 0.05 e P < 0.3)
 	{
 		escreva ("\nTodas as industrias devem permanecer em funcionamento normalmente")
 	}
 
-	se (P > 0.25 e P <= 0.3)
+	se (P >= 0.3 e P < 0.4)
 	{
 		escreva ("\nAs industrias do grupo 01 devem interromper seu funcionamento imediatamente!!")
 	}
 
-	se (P > 0.3 e P <= 0.4)
+	se (P >= 0.4 e P < 0.5)
 	{
 		escreva ("\nAs industrias dos grupos 01 e 02 devem interromper seu funcionamento imediatamente!!")
 	}
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 118; 
+ * @POSICAO-CURSOR = 469; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
